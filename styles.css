@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+.canvas {
+    display: flex;
+    justify-content: center;
+}
+
+#clear {
+    margin-left: 10px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+#drawingArea {
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: crosshair;
+}
